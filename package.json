@@ -1,0 +1,27 @@
+{
+  "name": "2c2p-poc",
+  "version": "1.0.0",
+  "description": "2c2p payment poc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"start\" && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/guoshuai/2c2p-poc"
+  },
+  "keywords": [
+    "2c2p"
+  ],
+  "author": "guoshuai@cn.ibm.com",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^3.0.0",
+    "axios": "^1.6.8",
+    "fast-jwt": "^4.0.0",
+    "fastify": "^4.26.2"
+  }
+}
